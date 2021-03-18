@@ -21,6 +21,14 @@ body {
 	color: black;
 }
 
+.lev {
+	font-size: 16px;
+}
+
+.boldparagraph {
+	font-weight: bold;
+}
+
 h1,
 h2,
 h3,
@@ -115,6 +123,9 @@ li {
 	border-color: green;
 }
 
+.cerveny {
+	color: red
+}
 
 .aktivni {
 	background-color: cyan;
