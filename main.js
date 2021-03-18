@@ -43,7 +43,7 @@ function pause() {
 
 function volume(event) {
     let slider = document.getElementById("slider");
-    //nechápu, ale když chybí řádka 44, tak to taky funguje, jak to?
+    //nechápu, ale když chybí řádka 44, tak to taky funguje, jak to? je slider nějaká hodnota z event?
     let input = slider.value;
     if (input == "0") {
         song.volume = 0;
