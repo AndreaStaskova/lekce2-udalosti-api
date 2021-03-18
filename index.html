@@ -17,15 +17,20 @@
 
 	<button onclick="getBig(event)">Větší po kliknutí</button>
 
-	<div class="ctverecek zluty"></div>
+	<div>Ovládání audio souboru</div>
 
-	<div class="ctverecek zeleny"></div>
+	<audio id="song" src="audio/NickDrake.mp3" preload="auto"></audio>
 
-	<img class="obrazek" src="obrazky/kocka.jpg">
+	<button onclick="play()">Play audio</button>
 
-	<button class="tlacitko">Čudlajs</button>
+	<button onclick="pause()">Pause audio</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<button onclick="rewind()">Rewind audio</button>
+
+	<div>
+		<p>Volume</p>
+		<input id="slider" type="range" min="0" max="1" step="0.5" onclick=volume(event)>
+	</div>
 
 	<script src="main.js"></script>
 
